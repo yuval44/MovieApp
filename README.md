@@ -19,3 +19,15 @@ Full Stack – Final Project, App for Movies &amp; Subscription management.
    </ul>
 </ul>
 
+<hr/>
+
+<h1>Screenshots of the Site</h1>
+
+<h3>Login Page</h3>
+<img src="README_IMGs/login_page.png" alt="Login Page" width="500"/>
+
+<h3>Movies Page</h3>
+<img src="README_IMGs/Movies_page.png" alt="Login Page" width="500"/>
+
+<h3>Subsciption Page</h3>
+<img src="README_IMGs/Subsciption_page.png" alt="Login Page" width="500"/>
