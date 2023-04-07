@@ -1,4 +1,4 @@
-# MovieApp
+# MovieApp 🍿🎬
 Full Stack – Final Project, App for Movies &amp; Subscription management.
 
 <h3>MERN Stack</h3>
