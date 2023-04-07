@@ -1,0 +1,35 @@
+.top-bar-div{
+    background-color: var(--color1);
+    color: var(--color2);
+    padding: 14px;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-bar-r-div{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-bar-span{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logout-btn{
+    padding: 4px 8px;
+    background-color: var(--color4);
+    color: var(--color2);
+    border: none;
+    cursor: pointer;
+}
+.logout-btn:hover{
+    background-color: var(--color3);
+}

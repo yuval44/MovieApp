@@ -1,0 +1,45 @@
+.movies-page{
+    display: flex;
+    flex-direction: column;
+}
+
+.top-div-page{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.page-title-text{
+    font-size: 40px;
+    font-weight: bold;
+}
+.movies-btns-div{
+    display: flex;
+    gap: 14px;
+}
+.find-movie-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.find-movie-input{
+    width: 260px;
+    padding: 10px;
+    margin-right: -77px;
+    border-radius: 10px;
+}
+.find-btn{
+    border-radius: 0px 8px 8px 0px;
+}
+
+.movies-section-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 35px;
+    padding: 14px;
+}
+
+

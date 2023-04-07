@@ -1,0 +1,59 @@
+.login-div{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.left-img-login{
+    width: 50%;
+    background-image: url('https://www.pixel-deep.com/img/services/services-banner.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.left-img-login-color{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.7) 80%, rgba(0,0,0,0.9) 100%);
+}
+
+.login-form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.login-title-text{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.input-style{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-btn{
+    cursor: pointer;
+    color: var(--color1);
+    border: 1px solid var(--color1);
+    font-size: 18px;
+    padding: 6px 14px;
+}
+
+
+
+@media (max-width: 760px){
+    .login-div{
+        flex-direction: column;
+    }
+    .login-form{
+        width: 100%;
+    }
+}
+

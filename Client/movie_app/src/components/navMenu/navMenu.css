@@ -1,0 +1,23 @@
+.nav-menu-div{
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+    background-color: var(--color3);
+    color: var(--color2);
+    font-size: 14px;
+}
+
+.nav-menu-div > span{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.nav-menu-div > span:hover {
+    color: var(--color4);
+}
+
+
+

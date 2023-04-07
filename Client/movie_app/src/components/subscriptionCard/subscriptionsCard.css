@@ -1,0 +1,135 @@
+.subscription-card-div{
+    min-width: 300px;
+    padding: 8px;
+    font-size: 14px;
+
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 10px 4px #bcbcbc;
+}
+.subscription-card-div:hover{
+    background-color: #f7f7f7;
+}
+
+.subscription-card-top-fullname{
+    font-size: 20px;
+}
+
+
+.subscription-card-top-btn-line{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.subscription-card-top-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+}
+.subscription-card-top-div > table{
+    font-size: 14px;
+    padding: 10px;
+}
+.table-header-member{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.new-sub-btn{
+    margin: auto;
+    background-color: transparent;
+    color: var(--color4);
+    font-weight: bold;
+}
+.new-sub-btn:hover{
+    background-color: transparent;
+    color: var(--color3);
+}
+
+.add-new-movie-div{
+    /* border-top: 1px solid var(--color1); */
+    border-bottom: 1px solid var(--color1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 20px;
+    text-align: center;
+}
+.add-new-movie-inputs-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.add-new-movie-btns-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.subscription-card-movie-watched-div{
+    padding: 10px;
+}
+.subscription-card-movie-watched-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.subscription-card-movie-watched-summary{
+    text-align: center;
+    border: 1px solid var(--color1);
+    color: var(--color1);
+    padding: 4px;
+    cursor: pointer;
+}
+.subscription-card-movie-watched-summary:hover{
+    background-color: rgb(215, 215, 215);
+}
+
+
+
+
+.subscription-card-sub-details-div{
+    padding: 10px;
+}
+.subscription-card-sub-table{
+    color: black;
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+}
+.subscription-card-sub-tr{
+    border-bottom: 1px solid rgb(59, 59, 59);
+}
+.subscription-card-sub-tr:hover{
+    background-color: #dddddd;
+}
+.subscription-card-sub-tr > th{
+    padding: 4px;
+    background-color: #dbdbdb;
+}
+.subscription-card-sub-tr > td{
+    padding: 4px 2px;
+}
+
+.link{
+    color: white;
+    color: var(--color4);
+}
+.link:hover{
+    color: var(--color3);
+}
+​.link:active{
+    color: white;
+}
