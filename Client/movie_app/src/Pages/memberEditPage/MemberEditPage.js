@@ -55,7 +55,7 @@ function MemberEditPageComp() {
                     <br />
 
                     <div className='add-edit-form-div'>
-                        <span className='add-edit-form-title'>Edit Member: </span>
+                        <span className='add-edit-form-title'>Edit Member: {editMemberInp.fullname}</span>
 
                         <div className="add-edit-form">
                             <div>
