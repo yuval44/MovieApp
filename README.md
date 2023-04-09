@@ -17,6 +17,8 @@ Full Stack – Final Project, App for Movies &amp; Subscription management.
      <li>jsonwebtoken (JWT)</li>
      <li>mongoose</li>
    </ul>
+   
+   <li>DataBase - MongoDB</li>
 </ul>
 
 <hr/>
